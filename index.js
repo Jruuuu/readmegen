@@ -64,6 +64,18 @@ const questions = [
         message: "How do you contribute?"      
     
 },
+{
+    type: "input",
+        name: "userStory",
+        message: "What is the user story for this application?"      
+    
+},
+{
+    type: "input",
+        name: "version",
+        message: "What version is this application?"      
+    
+},
 
 ];
 
@@ -72,8 +84,10 @@ const questions = [
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((answers)=> {
-        console.log(answers);
-    });
+        console.log("Here are the answers: ",answers);
+        fs.writeFileSync(path.join(process.cwd()), "README.md"),generateMarkdown(answers), (err) =>
+     err? console.error(err) : console.log ('README.md has been Successfully Generated')   
+     });
 }
 
 // function call to initialize program
