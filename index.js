@@ -1,8 +1,9 @@
 //bring in the necessary assets
 
-const fs = require("fs");
-const path = require("path");
+
 const inquirer  = require("inquirer");
+const util = require('util');
+
 
 const generateMarkdown = require("./utils/generateMarkdown")
 
@@ -73,7 +74,7 @@ const questions = [
 {
     type: "input",
         name: "version",
-        message: "What version is this application?"      
+        message: "What version is the application?"      
     
 },
 
@@ -85,10 +86,11 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then((answers)=> {
         console.log("Here are the answers: ",answers);
-        fs.writeFileSync(path.join(process.cwd()), "README.md"),generateMarkdown(answers), (err) =>
-     err? console.error(err) : console.log ('README.md has been Successfully Generated')   
-     });
-}
+        const fs = require('fs');
+        fs.appendFile('README.md' ,generateMarkdown(answers), (err) =>
+         err ? console.error(err) : console.log ('README GENERATED')
+         )
+})};
 
 // function call to initialize program
 init();
