@@ -37,8 +37,10 @@ THE SOFTWARE.
 
 
 
-&copy; ,Git Hub User Name: ${data.github}
+&copy; Git Hub User Name: ${data.github}
 <a href="https://github.com/${data.github}/${data.title}/">***Finish Product: ${data.title}***</a>
+For more information or questions 
+Email me @ ${data.email}
 --
 ### Example of what the end result should look like 
   
