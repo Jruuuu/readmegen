@@ -1,19 +1,17 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
-# ${data.title}
-**Version ${data.version}**
-### ${data.description}
+
+![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
+# readmegen
+**Version 1.0.0**
+### This Project is an Application that Generates a README template through the 
 ## User Story
-${data.userStory}
+I am a user looking to use a README Generator for my Project
 ## Installation Command
-${data.installation}  
+npm i -y and npm i inquirer --save  
 ### Test Commands
-${data.test}
+none
 
 ## LICENSE & COPYRIGHT
-${data.license}
+None
 
 
 
@@ -37,10 +35,14 @@ THE SOFTWARE.
 
 
 
-&copy; ,Git Hub User Name: ${data.github}
-<a href="https://github.com/${data.github}/${data.title}/">***Finish Product: ${data.title}***</a>
+&copy; ,Git Hub User Name: Jruuuu
+<a href="https://github.com/Jruuuu/readmegen/">***Finish Product: readmegen***</a>
 --
-### Example of what the end result should look like 
+### Example of what the end result should look like
+
+  
+  
+  
   
   
   
@@ -48,7 +50,3 @@ THE SOFTWARE.
   
   
 
-`;
-}
-
-module.exports = generateMarkdown;
