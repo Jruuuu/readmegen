@@ -35,7 +35,7 @@ THE SOFTWARE.
 
 
 
-&copy; ,Git Hub User Name: Jruuuu
+&copy; Git Hub User Name: Jruuuu
 <a href="https://github.com/Jruuuu/readmegen/">***Finish Product: readmegen***</a>
 --
 ### Example of what the end result should look like
