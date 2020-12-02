@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 # readmegen
 **Version 1.0.0**
-### This Project is an Application that Generates a README template through the 
+### This Project is an Application that Generates a README template through the NODE.JS enviroment
 ## User Story
 I am a user looking to use a README Generator for my Project
 ## Installation Command
