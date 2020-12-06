@@ -2,15 +2,34 @@
 ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 # readmegen
 **Version 1.0.0**
-### This Project is an Application that Generates a README template through the NODE.JS enviroment
+### In This Project we were taksed to create an Application that Generates a README MARKUP template through the NODE.JS enviroment using mainly JAVASCRIPT
 ## User Story
 I am a user looking to use a README Generator for my Project
-## Installation Command
-npm i -y and npm i inquirer --save
+## Installation Commands
+- INSTALL NODE.JS
+- INSTALL GITBASH
+- Clone To REPO
+- Type "npm i -y" and "npm i inquirer --save" seperately in Terminal  (I use GITBASH)
 <br>
-<iframe src="https://drive.google.com/file/d/15XjDVWfwJIQsVsCQ7w9kiBIwyFBQwcDR/preview" width="640" height="480"></iframe>
+<br>
+I have added a link to a installation video for guidance
+<br>
+<a href="https://drive.google.com/file/d/15XjDVWfwJIQsVsCQ7w9kiBIwyFBQwcDR/view">***--Installation Video Link--***</a>
+<br>
+## Questions Prompted for README Template<br>
+-What is your GitHub username?<br>
+-What is your email address?<br>
+-What is your project title?<br>
+-What is your Project Description?<br>
+-What is type of license are you using?<br>
+-What is the installation command?<br>
+-What is the command for test?<br>
+-What does the user need to know about the repo?<br>
+-How do you contribute?<br>
+-What is the user story for this application?<br>
+-What version is the application?<br>
 
-### Test Commands
+## Test Commands
 none
 
 ## LICENSE & COPYRIGHT
@@ -39,11 +58,12 @@ THE SOFTWARE.
 
 
 &copy; Git Hub User Name: Jruuuu
-<a href="https://github.com/Jruuuu/readmegen/">***Finish Product: readmegen***</a>
+
+<a href="https://github.com/Jruuuu/readmegen/">***Finish Product: readmegen GITHUB REPO***</a>
 --
 ### Example of what the end result should look like
 
-  
+  <img src="media\README EXAMPLE.JPG" alt="Weather Dashboard Screenshot" width="300px" height="500px"/>
   
   
   
