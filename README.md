@@ -16,7 +16,10 @@ I have added a link to a installation video for guidance
 <br>
 <a href="https://drive.google.com/file/d/15XjDVWfwJIQsVsCQ7w9kiBIwyFBQwcDR/view">***--Installation Video Link--***</a>
 <br>
-## Questions Prompted for README Template<br>
+
+## Questions Prompted for README Template
+
+<br>
 -What is your GitHub username?<br>
 -What is your email address?<br>
 -What is your project title?<br>
