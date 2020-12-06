@@ -6,7 +6,10 @@
 ## User Story
 I am a user looking to use a README Generator for my Project
 ## Installation Command
-npm i -y and npm i inquirer --save  
+npm i -y and npm i inquirer --save
+<br>
+<a href="media\README GEN.webm">Installation video</a>
+
 ### Test Commands
 none
 
